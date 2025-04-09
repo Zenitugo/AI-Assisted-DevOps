@@ -21,3 +21,10 @@ Generative AI in DevOps can be used to create a new kubrrnetes Manifest
 2. AI agents
 3. AI assistance 
 4. Scripting/programming language 
+
+
+## Task 1
+
+Create a shell script where the script should analyse the health of the virtual machine based on cpu, memory and disk space. if any of these three things are less than 60% utilized. The script declares the state of VM as healthy whereas if any of these parameters are more than 60%, script declares the health as non-healthy.
+
+Also the script should support a command line argument named "explain" when passed the script should explain the reason for health status along with printing the health status.
